@@ -7,6 +7,10 @@
 # For more information about the robots.txt standard, see:
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+
+# Disable all for now
+Disallow: /
+
 # Allow Directives
 Allow: */modules/*.css
 Allow: */modules/*.js
@@ -55,27 +59,27 @@ Disallow: /*controller=search
 Disallow: /*controller=statistics
 Disallow: /*controller=attachment
 Disallow: /*controller=guest-tracking
-# Directories for localhost
-Disallow: /aptekahit_sklep/app/
-Disallow: /aptekahit_sklep/cache/
-Disallow: /aptekahit_sklep/classes/
-Disallow: /aptekahit_sklep/config/
-Disallow: /aptekahit_sklep/controllers/
-Disallow: /aptekahit_sklep/download/
-Disallow: /aptekahit_sklep/js/
-Disallow: /aptekahit_sklep/localization/
-Disallow: /aptekahit_sklep/log/
-Disallow: /aptekahit_sklep/mails/
-Disallow: /aptekahit_sklep/modules/
-Disallow: /aptekahit_sklep/override/
-Disallow: /aptekahit_sklep/pdf/
-Disallow: /aptekahit_sklep/src/
-Disallow: /aptekahit_sklep/tools/
-Disallow: /aptekahit_sklep/translations/
-Disallow: /aptekahit_sklep/upload/
-Disallow: /aptekahit_sklep/var/
-Disallow: /aptekahit_sklep/vendor/
-Disallow: /aptekahit_sklep/webservice/
+# Directories for totwojewww.pl
+Disallow: /app/
+Disallow: /cache/
+Disallow: /classes/
+Disallow: /config/
+Disallow: /controllers/
+Disallow: /download/
+Disallow: /js/
+Disallow: /localization/
+Disallow: /log/
+Disallow: /mails/
+Disallow: /modules/
+Disallow: /override/
+Disallow: /pdf/
+Disallow: /src/
+Disallow: /tools/
+Disallow: /translations/
+Disallow: /upload/
+Disallow: /var/
+Disallow: /vendor/
+Disallow: /webservice/
 Disallow: /pl/app/
 Disallow: /pl/cache/
 Disallow: /pl/classes/
