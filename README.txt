@@ -5,5 +5,3 @@
 # Importujemy plik aptekahit_sklep.sql ( pamietajac, zeby baza aptekahit_sklep stworzona wczesniej była pusta );
 
 # Odpalamy sklep z localhosta w xamppie;
-# Jeżeli używacie sourceTree, po odpaleniu sklepu w liscie zmian pojawia Wam się pliki w foldzerze var/char
-# Klikamy na prawym, ignore... i ignorujemy cały folder var/ w Source Tree
