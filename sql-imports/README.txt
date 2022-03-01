@@ -4,6 +4,7 @@
 # - ps_configuration_kpi
 # - ps_configuration_kpi_lang
 # - ps_configuration_lang
+# - ps_shop_url
 
 # Aby dokonac aktualizacji nalezy usunac wszystkie kolumny z bazy aptekahit_sklep z wyjątkiem tych wyżej;
 # Po usunieciu importujemy baze z odpowiedniego pliku sql;
