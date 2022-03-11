@@ -5,7 +5,7 @@ module.exports = function (grunt) {
 		'ftp-deploy': {
 		  build: {
 			auth: {
-			  host: 'server.com',
+			  host: 'ftp://totwojv@ftp.cluster031.hosting.ovh.net',
 			  port: 21,
 			  authKey: 'ftppass1'
 			},
