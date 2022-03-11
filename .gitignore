@@ -1,5 +1,6 @@
 # Cache, temp and personal files
 
+/.ftppass
 /.htaccess
 *.log
 npm-debug.log.*
